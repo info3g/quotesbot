@@ -1,7 +1,7 @@
 # QuotesBot
-This is a Scrapy project to scrape quotes from famous people from http://quotes.toscrape.com ([github repo](https://github.com/scrapinghub/spidyquotes)).
+This is a Scrapy project to scrape quotes from famous people from http://quotes.toscrape.com website.
 
-This project is only meant for educational purposes.
+This project is only meant for testing purposes as how we can extract information using scrapy framework.
 
 
 ## Extracted data
@@ -27,9 +27,6 @@ command:
 
 Both spiders extract the same data from the same website, but `toscrape-css`
 employs CSS selectors, while `toscrape-xpath` employs XPath expressions.
-
-You can learn more about the spiders by going through the
-[Scrapy Tutorial](http://doc.scrapy.org/en/latest/intro/tutorial.html).
 
 
 ## Running the spiders
